@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     background-color: #FFF4E7;
     font-family: 'Lato', sans-serif;
+    padding-bottom: 30px;
 }
 
 .banner-img {
@@ -76,7 +77,8 @@ body {
     text-align: center;
     line-height: 26px;
 }
-.description-font{
+
+.description-font {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -104,19 +106,40 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.body-img img{
+
+.body-img img {
     padding: 10px;
 }
+
 .body-article {
     width: 50%;
     margin: auto;
     text-align: left;
 }
-.body-article h2{
+
+.body-article h2 {
     font-family: 'Mukta Malar', sans-serif;
     font-size: 5vh;
 }
 
 .h2color {
     color: gray;
+}
+
+.body-middle {
+    width: 80%;
+    margin: 10vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-middle-article h3 {
+    /* margin: 5px 20px; */
+    padding: 0 15px;
+    border-left: 5px solid orange;
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 5vh;
+}
+.left-middle-details{
+    margin: 50px 25px;
 }
