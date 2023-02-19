@@ -1,0 +1,122 @@
+* {
+    margin: 0 0;
+}
+
+body {
+    border: 1px solid saddlebrown;
+    /* background-color: #309d24; */
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF4E7;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-img {
+    display: flex;
+}
+
+.banner-img img {
+    width: 80%;
+    Height: 30vw;
+    border-radius: 8px;
+    margin: auto;
+
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 170px 80px 170px;
+
+}
+
+.navBar h1 {
+    margin: auto 20px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.h1Color {
+    color: #FF900E;
+}
+
+.pages {
+    display: flex;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mukta Malar', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.pages p {
+    margin: auto 20px;
+}
+
+.container {
+    margin: auto 20vw;
+    text-align: center;
+}
+
+
+.container h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    margin: auto;
+}
+
+.description {
+    width: 50%;
+    padding-top: 26px;
+    margin: auto;
+    text-align: center;
+    line-height: 26px;
+}
+.description-font{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    width: 170px;
+    height: 56px;
+    margin: 20px auto;
+    color: white;
+    background-color: #FF900E;
+    border-radius: 10px;
+    border: none;
+}
+
+.body-upper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 50px auto;
+}
+
+.body-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.body-img img{
+    padding: 10px;
+}
+.body-article {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.body-article h2{
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 5vh;
+}
+
+.h2color {
+    color: gray;
+}
