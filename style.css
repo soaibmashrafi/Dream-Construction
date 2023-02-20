@@ -4,15 +4,25 @@
 
 body {
     border: 1px solid saddlebrown;
-    /* background-color: #309d24; */
+}
 
+.header-font {
+    font-family: 'Lobster', cursive;
+}
+
+.body-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.description-font {
+    font-family: 'Open Sans', sans-serif;
+    color:grey
 }
 
 .banner {
     display: flex;
     flex-direction: column;
     background-color: #FFF4E7;
-    font-family: 'Lato', sans-serif;
     padding-bottom: 30px;
 }
 
@@ -25,21 +35,16 @@ body {
     Height: 30vw;
     border-radius: 8px;
     margin: auto;
-
 }
 
 .navBar {
     display: flex;
     justify-content: space-between;
     margin: 40px 170px 80px 170px;
-
 }
 
 .navBar h1 {
     margin: auto 20px;
-    font-family: 'Lobster', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Righteous', cursive;
 }
 
 .h1Color {
@@ -48,10 +53,6 @@ body {
 
 .pages {
     display: flex;
-    font-family: 'Lobster', cursive;
-    font-family: 'Mukta Malar', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Righteous', cursive;
 }
 
 .pages p {
@@ -59,13 +60,13 @@ body {
 }
 
 .container {
-    margin: auto 20vw;
+    margin: 3vh 20vw;
     text-align: center;
 }
 
 
 .container h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 700;
     margin: auto;
 }
@@ -76,10 +77,6 @@ body {
     margin: auto;
     text-align: center;
     line-height: 26px;
-}
-
-.description-font {
-    font-family: 'Open Sans', sans-serif;
 }
 
 #btn-primary {
@@ -119,11 +116,6 @@ body {
     text-align: left;
 }
 
-.body-upper-article h2 {
-    font-family: 'Mukta Malar', sans-serif;
-    font-size: 5vh;
-}
-
 .h2color {
     color: gray;
 }
@@ -142,14 +134,18 @@ body {
     height: 982px;
     text-align: left;
     margin-right: 10%;
+}
 
+.headline {
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: black;
 }
 
 .body-middle-article h3 {
     padding: 0 15px;
     border-left: 5px solid orange;
-    font-family: 'Mukta Malar', sans-serif;
-    font-size: 4vh;
 }
 
 .body-middle-article p {
@@ -165,6 +161,9 @@ body {
     padding: 30px;
 }
 
+.body-middle-details h3 {
+color: black;}
+
 .body-middle-details p {
     padding: 10px 0;
 }
@@ -178,7 +177,6 @@ body {
     position: absolute;
     margin-left: 100px;
     padding-top: 1000px;
-
 }
 
 .btn-secondary-style {
@@ -190,12 +188,64 @@ body {
     text-align: center;
     border: none;
     border-radius: 8px;
-
 }
 
 #btn-experiance {
     font-size: 20px;
     text-align: center;
     font-weight: 300;
+}
+
+.important-facts {
+    width: 30vw;
+    margin: 200px 220px 50px 220px;
+    text-align: left;
+}
+
+.important-facts p {
+    padding-top: 20px;
+}
+
+.awards{
+    display: flex;
+    margin: 100px 200px;
+    justify-content: space-around;
+}
+.award {
+    box-sizing: border-box;
+    width: 240px;
+    height: 240px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 50px;
+    /* transform: rotate(90deg); */
+}
+.award h1{
+    font-size: 54px;
+}
+
+.body-lower{
+    margin: 50px auto;
+}
+.sponsors {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+#sponsor-logo{
+    text-align: center;
+    filter: grayscale(100%);
+
+}
+.body-lower img{    
+    margin: 55px 70px;
+}
+
+footer p{
+    margin: 50px 250px 200px 250px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 40px 410px;
 
 }
