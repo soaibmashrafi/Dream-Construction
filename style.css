@@ -2,10 +2,6 @@
     margin: 0 0;
 }
 
-body {
-    border: 1px solid saddlebrown;
-}
-
 .header-font {
     font-family: 'Lobster', cursive;
 }
@@ -208,7 +204,8 @@ color: black;}
 
 .awards{
     display: flex;
-    margin: 100px 200px;
+    justify-content: center;
+    margin: 100px 10%;
     justify-content: space-around;
 }
 .award {
@@ -219,6 +216,7 @@ color: black;}
     border-radius: 8px;
     text-align: center;
     padding: 50px 50px;
+    text-align: center;
     /* transform: rotate(90deg); */
 }
 .award h1{
@@ -226,26 +224,83 @@ color: black;}
 }
 
 .body-lower{
-    margin: 50px auto;
+    margin: 50px 10%;
 }
 .sponsors {
     margin: auto;
     text-align: center;
-    width: 40%;
+    width: 50%;
 }
 #sponsor-logo{
+    display: flex;
+    justify-content: center;
     text-align: center;
     filter: grayscale(100%);
 
 }
 .body-lower img{    
-    margin: 55px 70px;
+    margin: 55px auto;
 }
 
 footer p{
-    margin: 50px 250px 200px 250px;
+    margin: 50px 210px 200px 210px;
+    padding: 40px 40px;
     text-align: center;
     background-color: antiquewhite;
-    padding: 40px 410px;
+
+}
+
+/* Responsive For Mobile */
+
+@media only screen and (max-width: 576px){
+    
+ /* Banner Section  */
+.navBar {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.navBar h1{
+    margin-bottom: 60px;
+    font-size: 20px;
+
+}
+.pages{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.pages p{
+    padding: 10px;
+    font-size: 30px;
+   
+}
+.container {
+    margin: auto ;
+    text-align: center;
+}
+.container h1{
+   font-size: 40px;
+}
+.banner-img img {
+    width: 100%;
+    height: 100%;
+}
+.body-upper{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    width: 100%;
+}
+.body-upper-img {
+   display: flex;
+    flex-direction: column;
+} 
+.body-upper-img img{
+     padding: auto;
+     width: 100%;
+     width: auto;
+     height: auto;
+ } 
 
 }
