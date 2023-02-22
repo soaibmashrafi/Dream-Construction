@@ -12,7 +12,7 @@
 
 .description-font {
     font-family: 'Open Sans', sans-serif;
-    color:grey
+    color: grey
 }
 
 .banner {
@@ -158,7 +158,8 @@
 }
 
 .body-middle-details h3 {
-color: black;}
+    color: black;
+}
 
 .body-middle-details p {
     padding: 10px 0;
@@ -202,12 +203,13 @@ color: black;}
     padding-top: 20px;
 }
 
-.awards{
+.awards {
     display: flex;
     justify-content: center;
     margin: 100px 10%;
     justify-content: space-around;
 }
+
 .award {
     box-sizing: border-box;
     width: 240px;
@@ -219,157 +221,214 @@ color: black;}
     text-align: center;
     /* transform: rotate(90deg); */
 }
-.award h1{
+
+.award h1 {
     font-size: 54px;
 }
 
-.body-lower{
+.body-lower {
     margin: 50px 10%;
 }
+
 .sponsors {
     margin: auto;
     text-align: center;
     width: 50%;
 }
-#sponsor-logo{
+
+#sponsor-logo {
     display: flex;
     justify-content: center;
     text-align: center;
     filter: grayscale(100%);
 
 }
-.body-lower img{    
+
+.body-lower img {
     margin: 55px auto;
 }
 
+.lower-articles h1 {
+    text-align: center;
+}
 
-footer p{
+.related-articles {
+    display: flex;
+    margin: auto;
+    padding: 30px 50px;
+    text-align: left;
+    width: 80%;
+    /* align-items: center;
+    justify-content: center;
+    justify-content: center; */
+}
+
+.related-articles img {
+    width: 100%;
+    height: 80%;
+}
+
+.related-article {
+    padding: 10px 20px;
+    border: 1px solid #FF900E;
+    margin: auto 10px;
+}
+
+.related-article h3 {
+    margin: 15px auto;
+    color: black;
+}
+.related-article p {
+    margin: 15px auto;
+}
+
+footer p {
     margin: 20px 210px 50px 210px;
     padding: 40px 40px;
     text-align: center;
     background-color: antiquewhite;
-
 }
 
 /* Responsive For Mobile */
 
-@media only screen and (max-width: 576px){
-    
- /* Banner Section  */
-.navBar {
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-}
-.navBar h1{
-    margin-bottom: 60px;
-    font-size: 20px;
+@media only screen and (max-width: 576px) {
 
-}
-.pages{
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-.pages p{
-    padding: 10px;
-    font-size: 30px;
-   
-}
-.container {
-    margin: auto ;
-    text-align: center;
-}
-.container h1{
-   font-size: 35px;
-}
-.banner-img img {
-    width: 100%;
-    height: 100%;
-}
+    /* Banner Section  */
+    .navBar {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 
-/* Body Upperpart */
-.body-upper{
-    display: flex;
-    flex-direction: column;
-    /* flex-direction: column-reverse; */
-    width: 100%;
-    margin: 50px auto 5px;
-}
-.body-upper-img {
-   display: flex;
-    flex-direction: column;
-} 
-.body-upper-img img{
-     padding: auto;
-     width: 100%;
-     width: auto;
-     height: auto;
- } 
- .headline {
-    margin-top: 50px;
-}
-/* Body Middlepart */
-.body-middle {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
+    .navBar h1 {
+        margin-bottom: 60px;
+        font-size: 20px;
 
-.body-middle-header {
-    width: 100%;
-    text-align: center;
-    margin: 5%;
-} 
-.body-middle-article{
-    display: flex;
-    flex-direction: column;
-    margin: 10%;
-}
-.body-middle-details {
-    margin: 20px auto;
-}
+    }
 
-.body-middle-footer img {
-    width: 250px;
-    height: 250px;
-    margin-top: 280px;
-}
-#btn-secondary {
-   margin-left: auto;
-}
-.btn-secondary-style {
-    padding: 25px 35px;
-    margin-top: 750px;
-}
-.body-lower img {
-    margin: 20px auto;
-}
-.important-facts {
-    width: 60vw;
-    margin: auto;
-    margin-top: 250px;
-    text-align: center;
-}
-.award {
-    margin: 10px;
-}
-.awards {
-    flex-direction: column;
-    align-items: center;
-    margin: 30px 10%;
-}
-.sponsors {
-    width: 100%;
-}
-#sponsor-logo {
-    flex-direction: column;
-    margin-top: 50px;
-}
-footer p {
-    margin: auto;
-    padding: 30px 50px;
-    text-align: center;
-    background-color: antiquewhite;
-}
+    .pages {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .pages p {
+        padding: 10px;
+        font-size: 30px;
+
+    }
+
+    .container {
+        margin: auto;
+        text-align: center;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Body Upperpart */
+    .body-upper {
+        display: flex;
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+        width: 100%;
+        margin: 50px auto 5px;
+    }
+
+    .body-upper-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-upper-img img {
+        padding: auto;
+        width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .headline {
+        margin-top: 50px;
+    }
+
+    /* Body Middlepart */
+    .body-middle {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .body-middle-header {
+        width: 100%;
+        text-align: center;
+        margin: 5%;
+    }
+
+    .body-middle-article {
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+    }
+
+    .body-middle-details {
+        margin: 20px auto;
+    }
+
+    .body-middle-footer img {
+        width: 250px;
+        height: 250px;
+        margin-top: 280px;
+    }
+
+    #btn-secondary {
+        margin-left: auto;
+    }
+
+    .btn-secondary-style {
+        padding: 25px 35px;
+        margin-top: 750px;
+    }
+
+    .body-lower img {
+        margin: 20px auto;
+    }
+
+    .important-facts {
+        width: 60vw;
+        margin: auto;
+        margin-top: 250px;
+        text-align: center;
+    }
+
+    .award {
+        margin: 10px;
+    }
+
+    .awards {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 10%;
+    }
+
+    .sponsors {
+        width: 100%;
+    }
+
+    #sponsor-logo {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    footer p {
+        margin: auto;
+        padding: 30px 50px;
+        text-align: center;
+        background-color: antiquewhite;
+    }
 }
