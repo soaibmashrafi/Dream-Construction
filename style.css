@@ -242,8 +242,9 @@ color: black;}
     margin: 55px auto;
 }
 
+
 footer p{
-    margin: 50px 210px 200px 210px;
+    margin: 20px 210px 50px 210px;
     padding: 40px 40px;
     text-align: center;
     background-color: antiquewhite;
@@ -280,17 +281,20 @@ footer p{
     text-align: center;
 }
 .container h1{
-   font-size: 40px;
+   font-size: 35px;
 }
 .banner-img img {
     width: 100%;
     height: 100%;
 }
+
+/* Body Upperpart */
 .body-upper{
     display: flex;
     flex-direction: column;
     /* flex-direction: column-reverse; */
     width: 100%;
+    margin: 50px auto 5px;
 }
 .body-upper-img {
    display: flex;
@@ -302,5 +306,70 @@ footer p{
      width: auto;
      height: auto;
  } 
+ .headline {
+    margin-top: 50px;
+}
+/* Body Middlepart */
+.body-middle {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 
+.body-middle-header {
+    width: 100%;
+    text-align: center;
+    margin: 5%;
+} 
+.body-middle-article{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+.body-middle-details {
+    margin: 20px auto;
+}
+
+.body-middle-footer img {
+    width: 250px;
+    height: 250px;
+    margin-top: 280px;
+}
+#btn-secondary {
+   margin-left: auto;
+}
+.btn-secondary-style {
+    padding: 25px 35px;
+    margin-top: 750px;
+}
+.body-lower img {
+    margin: 20px auto;
+}
+.important-facts {
+    width: 60vw;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+}
+.award {
+    margin: 10px;
+}
+.awards {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 10%;
+}
+.sponsors {
+    width: 100%;
+}
+#sponsor-logo {
+    flex-direction: column;
+    margin-top: 50px;
+}
+footer p {
+    margin: auto;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: antiquewhite;
+}
 }
