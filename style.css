@@ -51,8 +51,10 @@
     display: flex;
 }
 
-.pages p {
+.pages a {
     margin: auto 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -82,10 +84,13 @@
     width: 170px;
     height: 56px;
     margin: 20px auto;
-    color: white;
     background-color: #FF900E;
     border-radius: 10px;
     border: none;
+}
+#btn-primary a{
+    text-decoration: none;
+    color: white;
 }
 
 .body-upper {
@@ -219,7 +224,10 @@
     text-align: center;
     padding: 50px 50px;
     text-align: center;
-    /* transform: rotate(90deg); */
+    transition: 3s;
+}
+.award:hover{
+    transform: rotate(360deg) scale(1.2);
 }
 
 .award h1 {
@@ -258,9 +266,6 @@
     padding: 30px 50px;
     text-align: left;
     width: 80%;
-    /* align-items: center;
-    justify-content: center;
-    justify-content: center; */
 }
 
 .related-articles img {
@@ -312,7 +317,7 @@ footer p {
         justify-content: center;
     }
 
-    .pages p {
+    .pages a {
         padding: 10px;
         font-size: 30px;
 
@@ -430,5 +435,12 @@ footer p {
         padding: 30px 50px;
         text-align: center;
         background-color: antiquewhite;
+    }
+    .related-articles {
+        flex-direction: column;
+        width: auto;
+    }
+    .related-article {
+        margin: 10px auto;
     }
 }
